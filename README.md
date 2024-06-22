@@ -1,1 +1,2 @@
 # landing-page
+This is a landing page as part of a project for the Odin Project! I will be using two images for basic inspiration and framework but pretty much using what I learned about Flexbox to make this!
