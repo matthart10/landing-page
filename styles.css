@@ -6,11 +6,32 @@ body {
     margin: 0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .header {
     display: flex;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .links {
     margin-left: auto;
+}
+.content1 {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+.content {
+    height: 500px;
 }
