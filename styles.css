@@ -35,3 +35,22 @@ body {
 .content {
     height: 500px;
 }
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+.random-info {
+    display: flex;
+    justify-content: center;
+}
+.sections {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.child {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
