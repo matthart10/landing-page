@@ -19,8 +19,7 @@ body {
 }
 .content1 {
     display: flex;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    align-items: center;
 }
 .container {
     display: flex;
@@ -75,4 +74,11 @@ body {
 }
 .button2 {
     margin-left: auto;
+}
+.footer {
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
