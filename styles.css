@@ -73,10 +73,6 @@ body {
     padding-right: 200px;
     align-items: center;
 }
-.call {
-    display: flex;
-    flex-direction: column;
-}
 .button2 {
     margin-left: auto;
 }
