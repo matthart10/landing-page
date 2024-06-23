@@ -64,3 +64,19 @@ body {
 .credits {
     margin-left: auto;
 }
+.content4 {
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: blue;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    align-items: center;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+}
+.button2 {
+    margin-left: auto;
+}
