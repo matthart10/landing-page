@@ -3,13 +3,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
     overflow: hidden;
     font-family: Roboto, sans-serif;
-    max-width: 1200px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 
 }
 .header {
@@ -27,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #1F2937;
+    flex: 1;
 }
 .container {
     display: flex;
@@ -42,7 +39,6 @@ body {
     padding: 50px;
 }
 .content {
-    height: 500px;
 }
 .content2 {
     display: flex;
@@ -51,6 +47,7 @@ body {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    flex: 1;
 }
 .random-info {
     display: flex;
@@ -76,6 +73,8 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     justify-content: center;
+    background-color: #E5E7EB;
+    flex: 1;
 }
 .credits {
     margin-left: auto;
@@ -88,6 +87,7 @@ body {
     padding-left: 200px;
     padding-right: 200px;
     align-items: center;
+    flex: 1;
 }
 .button2 {
     margin-left: auto;
@@ -122,4 +122,8 @@ button {
 a {
     text-decoration: none;
     color: white;
+}
+.quote {
+    font-size: 36px;
+    font-style: light italic;
 }
