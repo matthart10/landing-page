@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    font-family: Roboto, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
 
 }
@@ -12,11 +12,22 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #1F2937;
-    padding-left: 30px;
+    padding-left: 50px;
+}
+.headerbox {
+    display: flex;
+    flex: 1;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .links {
     margin-left: auto;
-    padding-right: 30px;
+    padding-right: 50px;
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: thin;
 }
 .content1 {
     display: flex;
@@ -24,18 +35,31 @@ body {
     background-color: #1F2937;
     flex: 1;
 }
+.content1box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1;
+}
 .container {
     display: flex;
     flex-direction: column;
     gap: 8px;
     flex: 1;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
 }
 .container2 {
     display: flex;
     justify-content: flex-end;
     flex: 1;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
 }
 .content2 {
     display: flex;
@@ -86,8 +110,8 @@ body {
     padding: 40px;
 }
 .content4box {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     max-width: 1000px;
     background-color: royalblue;
     border-radius: 10px;
@@ -104,9 +128,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
+    padding: 16px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .logo {
     font-weight: bolder;
@@ -119,6 +143,7 @@ body {
 }
 .subtext {
     color: white;
+    font-size: 15px;
 }
 button {
     background: royalblue;
@@ -127,7 +152,7 @@ button {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
-    font-weight: 700px;
+    font-weight: bold;
 }
 .button2 {
     border: 2px solid white;
@@ -153,4 +178,7 @@ a {
 .signup {
     color: white;
     font-size: 14px;
+}
+.text {
+    text-align: center;
 }
