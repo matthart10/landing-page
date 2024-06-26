@@ -3,7 +3,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     margin: 0;
 
@@ -74,6 +73,8 @@ body {
     justify-content: center;
     background-color: #E5E7EB;
     flex: 1;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .credits {
     margin-left: auto;
@@ -81,7 +82,8 @@ body {
 .content4 {
     margin: 30px;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: royalblue;
+    border-radius: 10px;
     display: flex;
     padding-left: 200px;
     padding-right: 200px;
@@ -124,5 +126,10 @@ a {
 }
 .quote {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    color: #1F2937
+}
+.credits {
+    font-weight: bold;
+    padding-top: 10px;
 }
