@@ -12,7 +12,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #1F2937;
-    padding-left: 50px;
 }
 .headerbox {
     display: flex;
@@ -135,6 +134,7 @@ body {
 .logo {
     font-weight: bolder;
     color: white;
+    padding-left: 50px;
 }
 .beginning {
     font-weight: bold;
